@@ -13,7 +13,6 @@ export default function index() {
   )
 }
 
-
 function Section01() {
   return (
     <>
