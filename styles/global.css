@@ -1,14 +1,26 @@
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 100 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/PretendardVariable.ttf')format('truetype');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html,
-body,
-#__next {
-  height: 100%;
+@layer base {
+  main {
+    @apply bg-primary-50/30
+  }
 }
-
-body {
-  -webkit-font-smoothing: antialiased;
-  margin: 0;
+@layer components {
+  .btn-primary {
+    @apply rounded-md bg-primary-600 tracking-wider px-3.5 py-2.5 w-full leading-6 uppercase md:w-auto text-xs font-medium text-white shadow-sm hover:bg-primary-700 transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600
+  }
+  .btn-secondary {
+    @apply w-full md:w-auto px-3.5 ring-1 ring-netural-100/30 py-2.5 text-xs tracking-wider font-medium uppercase leading-6 text-netural-900 transition-all rounded bg-netural-50 hover:bg-netural-100
+  }
 }
