@@ -11,11 +11,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  main {
-    @apply bg-primary-50/30
-  }
-}
+
 @layer components {
   .btn-primary {
     @apply rounded-md bg-primary-600 tracking-wider px-3.5 py-2.5 w-full leading-6 uppercase md:w-auto text-xs font-medium text-white shadow-sm hover:bg-primary-700 transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600
