@@ -104,7 +104,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="mt-24 bg-primary-200" aria-labelledby="footer-heading">
+    <footer className="container mx-auto mt-24 rounded-t-2xl bg-primary-200" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
