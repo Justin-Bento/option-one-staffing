@@ -1,9 +1,10 @@
+import Footer from "components/Footer";
+import Head from "next/head";
 import Image from "next/image"
 import Link from "next/link"
-import { features } from "./data";
-import Head from "next/head";
+
 import Appbar from "../components/Appbar";
-import Footer from "components/Footer";
+import { features } from "./data";
 
 export default function index() {
   return (
@@ -53,7 +54,7 @@ function Hero() {
             fill
               src="https://images.unsplash.com/photo-1684482570533-b97679dd0705?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
               alt="App screenshot"
-              className="object-cover object-fill rounded-md shadow-2xl ring-1 ring-gray-900/10"
+              className="object-cover rounded-md shadow-2xl ring-1 ring-gray-900/10"
             />
           </div>
         </div>
@@ -132,8 +133,8 @@ function CallToAction_Call() {
 function Section04() {
   return (
     <>
-      <section className="" aria-label="hero">
-        <h1 className="">Section 04</h1>
+      <section className="container p-4 mx-auto lg:p-0" aria-label="hero">
+        <h4 className="">Section 04</h4>
       </section>
       {/* End Section 01: Hero */}
     </>
@@ -143,8 +144,8 @@ function Section04() {
 function Section05() {
   return (
     <>
-      <section className="" aria-label="hero">
-        <h1 className="">Section 05</h1>
+      <section className="container p-4 mx-auto lg:p-0" aria-label="hero">
+        <h5 className="">Section 05</h5>
       </section>
       {/* End Section 01: Hero */}
     </>
@@ -154,8 +155,8 @@ function Section05() {
 function Section06() {
   return (
     <>
-      <section className="" aria-label="hero">
-        <h1 className="">Section 06</h1>
+      <section className="container p-4 mx-auto lg:p-0" aria-label="hero">
+        <h6 className="">Section 06</h6>
       </section>
       {/* End Section 01: Hero */}
     </>
