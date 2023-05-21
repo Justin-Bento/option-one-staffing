@@ -1,11 +1,15 @@
 import Image from "next/image"
 import Link from "next/link"
 import { features } from "./data";
+import Head from "next/head";
 
 export default function index() {
   return (
     <>
-    
+    <Head>
+      <title>Option One Staffing Agency</title>
+      <meta name="description" content="Discover top-tier staffing solutions tailored to your needs. Option One Staffing Agency connects exceptional talent with leading companies, empowering individuals to thrive in their careers." />
+    </Head>
       <main className="space-y-48">
         <Hero />
         <Features />
