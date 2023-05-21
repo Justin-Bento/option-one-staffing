@@ -12,7 +12,7 @@ export default function Appbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="mb-16 lg:mb-32 bg-primary-50">
+    <header className="container mx-auto my-8 shadow-sm rounded-xl ring-1 ring-primary-900/10 lg:mb-32 ">
       <nav className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5 hover:opacity-80">
