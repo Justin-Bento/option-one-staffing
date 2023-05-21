@@ -26,11 +26,11 @@ function Hero() {
           <div className="flex flex-col items-center justify-start gap-4 mt-10 md:flex-row md:justify-center gap-x-4">
             <Link
               href="#"
-              className="rounded-md bg-blue-600  tracking-wider px-3.5 py-2.5 w-full md:w-auto text-sm font-semibold text-white shadow-sm hover:bg-blue-700 transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+              className="btn-primary"
             >
               Get started
             </Link>
-            <Link href="#" className="w-full md:w-auto px-3.5 py-2.5 text-sm font-semibold leading-6 text-gray-900 transition-all rounded bg-gray-50 hover:bg-gray-100">
+            <Link href="#" className=" btn-secondary">
               Learn more <span aria-hidden="true">→</span>
             </Link>
           </div>
